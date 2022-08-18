@@ -1,0 +1,22 @@
+/* Search results */
+
+#search-results
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#information-bar 
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+#information-bar i
+{
+    color: #0065FC;
+}

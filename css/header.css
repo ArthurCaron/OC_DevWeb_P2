@@ -1,0 +1,46 @@
+/* Header */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    padding-left: 70px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+header img 
+{
+    padding-top: 30px;
+}
+
+nav ul 
+{
+    display: flex;
+    list-style: none;
+    height: 100%;
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li 
+{
+    width: 100%;
+}
+
+nav ul li a
+{
+    font-size: 14px;
+    display: block;
+    padding-top: 30px;
+    text-align: center;
+    border-top: #FFFFFF 3px solid;
+}
+
+nav ul li a:hover
+{
+    color: #0065FC;
+    border-top: #0065FC 3px solid;
+}

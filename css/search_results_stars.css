@@ -1,0 +1,26 @@
+/* Search results - Stars */
+
+ul li .fa-star
+{
+    color: #0065FC;
+}
+
+ul.four-stars li:nth-child(1n+5) .fa-star
+{
+    color: #D2D2D2;
+}
+
+ul.three-stars li:nth-child(1n+4) .fa-star
+{
+    color: #D2D2D2;
+}
+
+ul.two-stars li:nth-child(1n+3) .fa-star
+{
+    color: #D2D2D2;
+}
+
+ul.one-star li:nth-child(1n+2) .fa-star
+{
+    color: #D2D2D2;
+}

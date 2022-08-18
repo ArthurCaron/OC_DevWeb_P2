@@ -1,0 +1,66 @@
+@import url("../fonts/Raleway/raleway.css");
+
+*
+{
+    font-family: 'Raleway', 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+
+body
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    /* box-sizing: border-box; */
+}
+
+a
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: #000000;
+}
+
+h1
+{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2
+{
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.blue
+{
+    color: #0065FC;
+}
+
+.light_blue
+{
+    color: #DEEBFF;
+}
+
+.grey
+{
+    color: #F2F2F2;
+}
+
+.darker_grey
+{
+    color: #D2D2D2;
+}
+
+
+
+
+
