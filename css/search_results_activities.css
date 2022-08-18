@@ -8,60 +8,111 @@
 #search-results-activities-grid
 {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 350px;
 }
 
-#search-results-activities-grid figure
+#search-results-activities-grid div a figure
 {
     margin: 0px;
-    width: 225px;
     margin-bottom: 30px;
     margin-right: 30px;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 3px 3px 5px #D2D2D2;
 }
 
-#search-results-activities-grid figure:hover
+#search-results-activities-grid div a figure:hover
 {
     box-shadow: 5px 5px 5px #D2D2D2;
 }
 
-#search-results-activities-grid figure.full
-{
-    height: 320px;
-}
-
-#search-results-activities-grid figure.small
-{
-    height: 145px;
-}
-
-#search-results-activities-grid figure.full img
-{
-    height: 275px;
-}
-
-#search-results-activities-grid figure.small img
-{
-    height: 100px;
-}
-
-#search-results-activities-grid figure img
+#search-results-activities-grid div a figure img
 {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
     object-fit: cover;
 }
 
-#search-results-activities-grid figure figcaption h2
+#search-results-activities-grid div a figure figcaption h2
 {
-    font-size: 14px;
     height: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 15px;
     padding-left: 15px;
     font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    #search-results-activities h2
+    {
+        font-size: 16px;
+    }
+
+    #search-results-activities-grid div a figure figcaption h2
+    {
+        font-size: 14px;
+    }
+
+    #search-results-activities-grid
+    {
+        flex-wrap: wrap;
+    }
+
+    #search-results-activities-grid div a figure
+    {
+        width: 225px;
+    }
+
+    #search-results-activities-grid div a figure.full
+    {
+        height: 320px;
+    }
+    
+    #search-results-activities-grid div a figure.small
+    {
+        height: 145px;
+    }
+    
+    #search-results-activities-grid div a figure.full img
+    {
+        height: 275px;
+    }
+    
+    #search-results-activities-grid div a figure.small img
+    {
+        height: 100px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    #search-results-activities h2
+    {
+        font-size: 20px;
+    }
+
+    #search-results-activities-grid div a figure figcaption h2
+    {
+        font-size: 16px;
+    }
+
+    #search-results-activities-grid
+    {
+        flex-direction: column;
+    }
+
+    #search-results-activities-grid div a figure
+    {
+        height: 120px;
+        width: 100%;
+    }
+    
+    #search-results-activities-grid div a figure
+    {
+        height: 165px;
+    }
+    
+    #search-results-activities-grid div a figure img
+    {
+        height: 120px;
+    }
 }

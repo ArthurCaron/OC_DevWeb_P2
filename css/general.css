@@ -9,7 +9,6 @@ body
 {
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 1080px;
     margin-left: auto;
     margin-right: auto;
     /* box-sizing: border-box; */
@@ -28,16 +27,22 @@ a:visited
 
 h1
 {
-    font-size: 16px;
     margin: 0px;
     padding: 0px;
 }
 
 h2
 {
-    font-size: 16px;
+    /* font-size: 16px; */
     margin: 0px;
     padding: 0px;
+}
+
+ul
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 .blue
@@ -60,7 +65,125 @@ h2
     color: #D2D2D2;
 }
 
+header
+{
+    margin-bottom: 30px;
+}
+
+#search
+{
+    margin-bottom: 30px;
+}
+
+#filters
+{
+    margin-bottom: 30px;
+}
+
+#information-bar 
+{
+    margin-bottom: 20px;
+}
+
+#search-results-rentals
+{
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-version
+    {
+        display: none;
+    }
+
+    header
+    {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #search
+    {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #filters
+    {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #search-results
+    {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #information-bar 
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .desktop-version
+    {
+        display: none;
+    }
+
+    #search
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #filters
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #information-bar 
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #search-results-rentals article
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #search-results-rentals aside > div
+    {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #search-results-activities
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .result-box
+    {
+        margin-bottom: 30px;
+    }
+}
 
 
 
+@media screen and (min-width: 768px) {
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+}
 
