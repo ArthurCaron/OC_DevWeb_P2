@@ -88,6 +88,11 @@ header
     margin-bottom: 30px;
 }
 
+#search-results-activities
+{
+    margin-bottom: 30px;
+}
+
 @media screen and (min-width: 768px) {
     .mobile-version
     {
@@ -112,16 +117,22 @@ header
         padding-right: 50px;
     }
 
-    #search-results
+    #information-bar 
+    {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #search-results-rentals
     {
         padding-left: 40px;
         padding-right: 40px;
     }
 
-    #information-bar 
+    #search-results-activities
     {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 
