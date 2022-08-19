@@ -236,12 +236,3 @@
     display: flex;
     list-style: none;
 }
-
-/* #search-results-rentals { border: solid red 2px; } */
-/* #search-results-rentals article > div { border: solid green 2px; } */
-/* #search-results-rentals aside > div { border: solid green 2px; } */
-/* #search-results-rentals-grid { border: solid blue 2px; } */
-/* #search-results-most-populars-grid { border: solid blue 2px; } */
-/* #search-bar { border: solid purple 2px; } */
-/* #search-results-rentals-grid figure { border: solid yellow 2px; } */
-/* #search-results-most-populars-grid figure { border: solid yellow 2px; } */

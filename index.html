@@ -5,18 +5,18 @@
         <script src="https://kit.fontawesome.com/ed3e9d509f.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/general.css"/>
         <link rel="stylesheet" href="css/header.css"/>
-        <link rel="stylesheet" href="css/search.css"/>
+        <link rel="stylesheet" href="css/search-bar.css"/>
         <link rel="stylesheet" href="css/filters.css"/>
-        <link rel="stylesheet" href="css/search_results_stars.css"/>
-        <link rel="stylesheet" href="css/search_results_rentals.css"/>
-        <link rel="stylesheet" href="css/search_results_activities.css"/>
+        <link rel="stylesheet" href="css/stars.css"/>
+        <link rel="stylesheet" href="css/search-results-rentals.css"/>
+        <link rel="stylesheet" href="css/search-results-activities.css"/>
         <link rel="stylesheet" href="css/footer.css"/>
         <title>Booki</title>
     </head>
     <body>
         <header>
             <div>
-                <img src="images/logo/Booki.png" alt="Booki_logo" />
+                <img src="images/logo/Booki.png" alt="Booki-logo" />
             </div>
             <nav>
                 <ul>
@@ -32,7 +32,7 @@
             
             <form method="post" action="search.php">
                 <span><i class="fa-solid fa-location-dot"></i></span>
-                <input type="text" id="search-bar" name="search_bar" value="Marseille, France" required />
+                <input type="text" id="search-bar" name="search-bar" placeholder="Marseille, France" value="Marseille, France" required />
                 <div>
                     <button type="submit" class="desktop-version">Rechercher</button>
                     <button type="submit" class="mobile-version"><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -79,7 +79,7 @@
                         <div id="search-results-rentals-grid">
                             <a href="#">
                                 <figure>
-                                        <img src="images/hebergements_small/auberge-la-cannebiere.jpg" alt="" />
+                                        <img src="images/hebergements-small/auberge-la-cannebiere.jpg" alt="" />
                                         <figcaption>
                                             <div>
                                                 <h2>Auberge La Cannebière</h2>
@@ -97,7 +97,7 @@
                             </a>
                             <a href="#">
                                 <figure>
-                                    <img src="images/hebergements_small/hotel-du-port.jpg" alt="" />
+                                    <img src="images/hebergements-small/hotel-du-port.jpg" alt="" />
                                     <figcaption>
                                         <div>
                                             <h2>Hôtel du port</h2>
@@ -115,7 +115,7 @@
                             </a>
                             <a href="#">
                                 <figure>
-                                    <img src="images/hebergements_small/hotel-les-mouettes.jpg" alt="" />
+                                    <img src="images/hebergements-small/hotel-les-mouettes.jpg" alt="" />
                                     <figcaption>
                                         <div>
                                             <h2>Hôtel Les mouettes</h2>
@@ -133,7 +133,7 @@
                             </a>
                             <a href="#">
                                 <figure>
-                                    <img src="images/hebergements_small/hotel-de-la-mer.jpg" alt="" />
+                                    <img src="images/hebergements-small/hotel-de-la-mer.jpg" alt="" />
                                     <figcaption>
                                         <div>
                                             <h2>Hôtel de la mer</h2>
@@ -151,7 +151,7 @@
                             </a>
                             <a href="#">
                                 <figure>
-                                    <img src="images/hebergements_small/auberge-le-panier.jpg" alt="" />
+                                    <img src="images/hebergements-small/auberge-le-panier.jpg" alt="" />
                                     <figcaption>
                                         <div>
                                             <h2>Auberge Le Panier</h2>
@@ -169,7 +169,7 @@
                             </a>
                             <a href="#">
                                 <figure>
-                                    <img src="images/hebergements_small/hotel-chez-amina.jpg" alt="" />
+                                    <img src="images/hebergements-small/hotel-chez-amina.jpg" alt="" />
                                     <figcaption>
                                         <div>
                                             <h2>Hôtel chez Amina</h2>
@@ -202,7 +202,7 @@
                         <div id="search-results-most-populars-grid">
                             <a href="#">
                                 <figure>
-                                    <img src="images/hebergements_small/hotel-le-soleil-du-matin.jpg" alt="" />
+                                    <img src="images/hebergements-small/hotel-le-soleil-du-matin.jpg" alt="" />
                                     <figcaption>
                                         <div>
                                             <h2>Hôtel Le soleil du matin</h2>
@@ -220,7 +220,7 @@
                             </a>
                             <a href="#">
                                 <figure>
-                                    <img src="images/hebergements_small/au-coeur-de-l-eau-chambres-d-hotes.jpg" alt="" />
+                                    <img src="images/hebergements-small/au-coeur-de-l-eau-chambres-d-hotes.jpg" alt="" />
                                     <figcaption>
                                         <div>
                                             <h2>Au coeur de l'eau Chambres d'hôtes</h2>
@@ -238,7 +238,7 @@
                             </a>
                             <a href="#">
                                 <figure>
-                                    <img src="images/hebergements_small/hotel-tout-bleu-et-blanc.jpg" alt="" />
+                                    <img src="images/hebergements-small/hotel-tout-bleu-et-blanc.jpg" alt="" />
                                     <figcaption>
                                         <div>
                                             <h2>Hôtel Tout bleu et Blanc</h2>
@@ -265,7 +265,7 @@
                     <div>
                         <a href="#">
                             <figure class="full">
-                                <img src="images/activites_small/vieux-port.jpg" alt="" />
+                                <img src="images/activites-small/vieux-port.jpg" alt="" />
                                 <figcaption>
                                     <h2>Vieux Port</h2>
                                 </figcaption>
@@ -275,7 +275,7 @@
                     <div>
                         <a href="#">
                             <figure class="small">
-                                <img src="images/activites_small/fort-de-pomegues.jpg" alt="" />
+                                <img src="images/activites-small/fort-de-pomegues.jpg" alt="" />
                                 <figcaption>
                                     <h2>Fort de Pomègues</h2>
                                 </figcaption>
@@ -283,7 +283,7 @@
                         </a>
                         <a href="#">
                             <figure class="small">
-                                <img src="images/activites_small/iles-du-frioul.jpg" alt="" />
+                                <img src="images/activites-small/iles-du-frioul.jpg" alt="" />
                                 <figcaption>
                                     <h2>Iles du Frioul</h2>
                                 </figcaption>
@@ -293,7 +293,7 @@
                     <div>
                         <a href="#">
                             <figure class="full">
-                                <img src="images/activites_small/parc-national-des-calanques.jpg" alt="" />
+                                <img src="images/activites-small/parc-national-des-calanques.jpg" alt="" />
                                 <figcaption>
                                     <h2>Parc National des Calanques</h2>
                                 </figcaption>
@@ -303,7 +303,7 @@
                     <div>
                         <a href="#">
                             <figure class="small">
-                                <img src="images/activites_small/notre-dame-de-la-garde.jpg" alt="" />
+                                <img src="images/activites-small/notre-dame-de-la-garde.jpg" alt="" />
                                 <figcaption>
                                     <h2>Notre-Dame-de-la-Garde</h2>
                                 </figcaption>
@@ -311,7 +311,7 @@
                         </a>
                         <a href="#">
                             <figure class="small">
-                                <img src="images/activites_small/parc-longchamp.jpg" alt="" />
+                                <img src="images/activites-small/parc-longchamp.jpg" alt="" />
                                 <figcaption>
                                     <h2>Parc Longchamp</h2>
                                 </figcaption>

@@ -11,7 +11,6 @@ body
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    /* box-sizing: border-box; */
 }
 
 a
@@ -33,7 +32,6 @@ h1
 
 h2
 {
-    /* font-size: 16px; */
     margin: 0px;
     padding: 0px;
 }
@@ -175,15 +173,3 @@ header
         margin-bottom: 30px;
     }
 }
-
-
-
-@media screen and (min-width: 768px) {
-
-}
-
-
-@media screen and (max-width: 768px) {
-
-}
-
