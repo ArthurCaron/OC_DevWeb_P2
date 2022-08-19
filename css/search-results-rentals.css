@@ -90,13 +90,20 @@
 
 /* Search results - Rentals grid */
 
-#search-results-rentals-grid
+#search-results-rentals-grid > div
 {
     display: flex;
     justify-content: space-between;
 }
 
-#search-results-rentals-grid figure
+#search-results-rentals-grid > div > div
+{
+    box-sizing: border-box;
+    width: 33%;
+    padding: 10px;
+}
+
+#search-results-rentals-grid > div > div a figure
 {
     display: flex;
     flex-direction: column;
@@ -108,66 +115,66 @@
     box-shadow: 3px 3px 5px #D2D2D2;
 }
 
-#search-results-rentals-grid figure:hover
+#search-results-rentals-grid > div > div a figure:hover
 {
     box-shadow: 5px 5px 5px #D2D2D2;
 }
 
-#search-results-rentals-grid figure img 
+#search-results-rentals-grid > div > div a figure img 
 {
     border-radius: 10px 10px 0px 0px;
     object-fit: cover;
 }
 
-#search-results-rentals-grid figure figcaption
+#search-results-rentals-grid > div > div a figure figcaption
 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
-    height: 30%;
     padding: 8px 20px 8px 10px;
     font-size: 10px;
 }
 
-#search-results-rentals-grid figure figcaption div h2
+#search-results-rentals-grid > div > div a figure figcaption div h2
 {
-    margin: 0px;
+    margin: 0px 0px 5px 0px;
     font-size: 12px;
 }
 
-#search-results-rentals-grid figure figcaption div p 
+#search-results-rentals-grid > div > div a figure figcaption div p 
 {
-    margin: 0px;
+    margin: 0px 0px 10px 0px;
 }
 
-#search-results-rentals-grid figure figcaption ul
+#search-results-rentals-grid > div > div a figure figcaption ul
 {
     display: flex;
     list-style: none;
+    width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-    #search-results-rentals-grid
+    #search-results-rentals-grid > div > div
     {
         flex-wrap: wrap;
     }
 
-    #search-results-rentals-grid figure img 
+    #search-results-rentals-grid > div > div a figure img 
     {
         height: 80px;
-        width: 180px;
+        width: 100%;
     }
 }
 
 
 @media screen and (max-width: 768px) {
-    #search-results-rentals-grid
+    #search-results-rentals-grid > div > div
     {
         flex-direction: column;
     }
 
-    #search-results-rentals-grid figure img 
+    #search-results-rentals-grid > div > div a figure img 
     {
         height: 120px;
         width: 100%;
