@@ -19,7 +19,7 @@
     height: 100%;
 }
 
-.result-box > div span
+.result-box > div > h2
 {
     display: flex;
     justify-content: space-between;
@@ -63,7 +63,7 @@
         padding: 30px 20px 10px 20px;
     }
 
-    .result-box > div span
+    .result-box > div > h2
     {
         font-size: 16px;
         padding-left: 10px;
@@ -88,7 +88,7 @@
         background-color: #F2F2F2;
     }
 
-    .result-box > div span
+    .result-box > div > h2
     {
         font-size: 20px;
     }
